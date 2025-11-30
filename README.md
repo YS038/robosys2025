@@ -4,8 +4,8 @@
 # plusコマンド
 ![test]https://github.com/YS038/robosys2025/actions/workflows/test.yml
 
-#kadaiコマンド
-[test]https://github.com/YS038/robosys2025/actions/workflows/test.yml
+# kadaiコマンド
+![test]https://github.com/YS038/robosys2025/actions/workflows/test.yml
 これは、文字を調べるコマンドです
 cat filename | ./kadai keyword
 filenameに調べるファイル名、keywordに調べる言葉を入れてください
