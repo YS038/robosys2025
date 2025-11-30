@@ -1,0 +1,11 @@
+#!/usr/bin/python3
+# SPDX-FileCopyrightText:2025 YS038
+# SPDX-License-Identifier: BSD-3-Clause
+
+import sys
+
+keyword = sys.argv[1]
+
+for line in sys.stdin:
+    if keyword in line:
+        print(line, end="")
