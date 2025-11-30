@@ -10,8 +10,11 @@ if len(sys.argv) < 2:
 
 keyword = sys.argv[1]
 line_num = 0
+piece_num =0
 
 for line in sys.stdin:
+    line_num += 1
     if keyword in line:
-        line_num += 1
+        piece_num += 1
+        print(f"{piece_num}")
         print(f"{line_num}", end="\n")
