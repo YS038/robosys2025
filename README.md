@@ -4,6 +4,16 @@
 # plusコマンド
 ![test]https://github.com/YS038/robosys2025/actions/workflows/test.yml
 
+#kadaiコマンド
+[test]https://github.com/YS038/robosys2025/actions/workflows/test.yml
+これは、文字を調べるコマンドです
+cat filename | ./kadai keyword
+filenameに調べるファイル名、keywordに調べる言葉を入れてください
+OS:linux
+python version：Python 3.12.3
+
+
+
 何をするためのソフトか
 使い方
 ダウンロード、インストール、起動する手順、簡単な使い方
