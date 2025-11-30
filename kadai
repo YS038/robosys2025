@@ -4,6 +4,10 @@
 
 import sys
 
+if len(sys.argv) < 2:
+    print("Usage: {} KEYWORD", file=sys.stderr)
+    sys.exit(1)   # エラー終了（0 以外）
+
 keyword = sys.argv[1]
 
 for line in sys.stdin:
