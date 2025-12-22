@@ -7,14 +7,14 @@ ng(){
 }
 res=0
 ##nomal##
-out=$(seq 5 | ./plus )
+out=$(seq 5 | ./kadai)
 [ "${out}" = 15.0 ] || ng "$LINENO"
 ##strange 
-out=$(echo あ|./plus)
+out=$(echo あ|./kadai)
 [ "$?" = 1 ]        || ng "$LINENO"
 [ "${out}" = "" ]   || ng "$LINENO"
 
-out=$(echo | ./plus)
+out=$(echo | ./kadai)
 [ "$?" = 1 ]        || ng "$LINENO"
 [ "${out}" = "" ]   || ng "$LINENO"
 
