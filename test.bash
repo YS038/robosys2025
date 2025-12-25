@@ -1,5 +1,6 @@
 #!/bin/bash -xv
-#SPDX ...
+# SPDX-FileCopyrightText:2025 YS038
+# SPDX-License-Identifier: BSD-3-Clause
 
 ng(){
 	echo ${1}行目が違うよ
@@ -7,14 +8,20 @@ ng(){
 }
 res=0
 ##nomal##
-out=$(seq 5 | ./kadai)
-[ "${out}" = 15.0 ] || ng "$LINENO"
-##strange 
-out=$(echo あ|./kadai)
-[ "$?" = 1 ]        || ng "$LINENO"
-[ "${out}" = "" ]   || ng "$LINENO"
+res=0
 
-out=$(echo | ./kadai)
+out=$(printf "apple\nbanana\napple pie\norange\n" | ./kadai apple)
+status=$?
+
+[ "$status" = 0 ] || ng "$LINENO"
+
+[ "$out" = "1
+1
+2
+3"] || ng "$LINENO"
+
+##strange
+out=$(printf "apple\nbanana\n" | ./kadai)
 [ "$?" = 1 ]        || ng "$LINENO"
 [ "${out}" = "" ]   || ng "$LINENO"
 
