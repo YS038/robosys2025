@@ -18,7 +18,7 @@ status=$?
 [ "$out" = "1
 1
 2
-3"] || ng "$LINENO"
+3" ] || ng "$LINENO"
 
 ##strange
 out=$(printf "apple\nbanana\n" | ./kadai)
