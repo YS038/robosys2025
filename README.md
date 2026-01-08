@@ -14,7 +14,7 @@
 
 実行方法
 cat filename | ./kadai keyword
-filenameに調べるファイル名、keywordに調べる言葉を入れてください
+filenameに調べるファイル名、keywordに調べる言葉を入れてください。
 
 出力の形式
 出力は 1行ごとに数値 が表示され、
