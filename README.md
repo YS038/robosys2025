@@ -3,7 +3,7 @@
 
 # kadaiコマンド
 ![test]https://github.com/YS038/robosys2025/actions/workflows/test.yml
-
+## 説明  
 これは、
 標準入力から受け取ったテキストを上から順に読み込み、指定したキーワードを含む行を探す  
 ためのコマンドです。  
@@ -12,7 +12,7 @@
 「そのキーワードが 何行目にあったか」  
 を 交互に出力します。  
 
-実行方法  
+## 実行方法    
 cat filename | ./kadai keyword  
 filenameに調べるファイル名、keywordに調べる言葉を入れてください。  
 
@@ -25,7 +25,7 @@ filenameに調べるファイル名、keywordに調べる言葉を入れてく�
 [そのキーワードがあった行番号]  
 ...  
 
-動作環境
+## 動作環境
 OS:linux
 python version：Python 3.12.3
 
