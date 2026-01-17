@@ -48,8 +48,8 @@ cat sample.txt | ./kadai apple
 
 
 ## 動作環境
-OS:linux
-python version：Python 3.12.3
+- OS:linux
+- python version：Python 3.12.3
 
 
 - このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
