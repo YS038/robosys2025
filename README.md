@@ -1,8 +1,9 @@
-# robosys2025
+# robosys2026i
 ロボットシステム学課題１
 
 # kadaiコマンド
-![test]https://github.com/YS038/robosys2025/actions/workflows/test.yml
+![test](https://github.com/YS038/robosys2025/actions/workflows/test.yml)  
+
 ## 説明  
 これは、
 標準入力から受け取ったテキストを上から順に読み込み、指定したキーワードを含む行を探す  
@@ -30,7 +31,7 @@ OS:linux
 python version：Python 3.12.3
 
 
--このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
 - このパッケージのコードは，下記のスライドを，本人の許可を得て自身の著作としたものです．
  (https://ryuichiueda.github.io/slides_marp/robosys2025/lesson2.html)
  (https://ryuichiueda.github.io/slides_marp/robosys2025/lesson3.html)
