@@ -10,7 +10,7 @@ res=0
 ##nomal##
 res=0
 
-out=$(printf "apple\nbanana\napple pie\norange\n" | ./kadai apple)
+out=$(printf "apple\nbanana\napple pie\norange\n" | ./keysearch apple)
 status=$?
 
 [ "$status" = 0 ] || ng "$LINENO"
@@ -21,7 +21,7 @@ status=$?
 3" ] || ng "$LINENO"
 
 ##strange
-out=$(printf "apple\nbanana\n" | ./kadai)
+out=$(printf "apple\nbanana\n" | ./keysearch)
 [ "$?" = 1 ]        || ng "$LINENO"
 [ "${out}" = "" ]   || ng "$LINENO"
 
