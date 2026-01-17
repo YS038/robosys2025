@@ -14,9 +14,9 @@
 を 交互に出力します。  
 
 ## 実行方法  
-'''bash  
+```bash  
 cat filename | ./kadai keyword  
-'''
+```
 
 filenameに調べるファイル名、keywordに調べる言葉を入れてください。  
 
