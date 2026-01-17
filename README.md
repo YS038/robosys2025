@@ -1,7 +1,7 @@
 # robosys2026i
 ロボットシステム学課題１
 
-# kadaiコマンド
+# keysearchコマンド
 ![test](https://github.com/YS038/robosys2025/actions/workflows/test.yml)  
 
 ## 説明  
@@ -15,7 +15,7 @@
 
 ## 実行方法  
 ```bash  
-cat filename | ./kadai keyword  
+cat filename | ./keysearch keyword  
 ```
 
 filenameに調べるファイル名、keywordに調べる言葉を入れてください。  
@@ -32,7 +32,7 @@ orange
 
 実行:
 ```bash
-cat sample.txt | ./kadai apple
+cat sample.txt | ./keysearch apple
 ```
 
 出力:
