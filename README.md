@@ -1,4 +1,4 @@
-# robosys2026ii
+# robosys2026
 ロボットシステム学課題１
 
 # keysearchコマンド
@@ -49,7 +49,7 @@ cat sample.txt | ./keysearch apple
 
 ## 動作環境
 - OS:linux
-- python version：Python 3.12.3
+- python version:Python 3.12.3
 
 ## 参考資料
 
