@@ -1,7 +1,7 @@
 # robosys2026
 ロボットシステム学課題１
 
-# keysearchコマンド
+# keylocateコマンド
 ![test](https://github.com/YS038/robosys2025/actions/workflows/test.yml/badge.svg)  
 
 ## 説明  
@@ -15,7 +15,7 @@
 
 ## 実行方法  
 ```bash  
-cat filename | ./keysearch keyword  
+cat filename | ./keylocate keyword  
 ```
 
 filenameに調べるファイル名、keywordに調べる言葉を入れてください。  
@@ -32,7 +32,7 @@ orange
 
 実行:
 ```bash
-cat sample.txt | ./keysearch apple
+cat sample.txt | ./keylocate apple
 ```
 
 出力:
