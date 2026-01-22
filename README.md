@@ -1,8 +1,8 @@
-# robosys2026i
+# robosys2026ii
 ロボットシステム学課題１
 
 # keysearchコマンド
-![test](https://github.com/YS038/robosys2025/actions/workflows/test.yml)  
+![test](https://github.com/YS038/robosys2025/actions/workflows/test.yml/badge.svg)  
 
 ## 説明  
 これは、
@@ -51,13 +51,15 @@ cat sample.txt | ./keysearch apple
 - OS:linux
 - python version：Python 3.12.3
 
+## 参考資料
 
-- このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
-- このパッケージのコードは，下記のスライドを，本人の許可を得て自身の著作としたものです．
- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson2.html
- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson3.html
- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson4.html
- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson5.html
- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson6.html
- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson7.html
+このソフトウェアパッケージは，3条項BSDライセンスの下，再頒布および使用が許可されます．
+このパッケージのコードは，下記のスライドを，本人の許可を得て自身の著作としたものです．
+
+- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson2.html
+- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson3.html
+- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson4.html
+- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson5.html
+- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson6.html
+- https://ryuichiueda.github.io/slides_marp/robosys2025/lesson7.html
 -Ⓒ　2025 yuu
