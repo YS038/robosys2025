@@ -37,10 +37,8 @@ cat sample.txt | ./keysearch apple
 
 出力:
 ```
-1
-1
-2
-3
+1,1
+2,3
 ```
 
 この例では、"apple" が
