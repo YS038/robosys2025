@@ -16,5 +16,4 @@ for line in sys.stdin:
     line_num += 1
     if keyword in line:
         piece_num += 1
-        print(f"{piece_num}")
-        print(f"{line_num}", end="\n")
+        print(f"{piece_num},{line_num}", end="\n")
