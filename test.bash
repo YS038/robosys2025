@@ -15,10 +15,8 @@ status=$?
 
 [ "$status" = 0 ] || ng "$LINENO"
 
-[ "$out" = "1
-1
-2
-3" ] || ng "$LINENO"
+[ "$out" = "1,1
+2,3" ] || ng "$LINENO"
 
 ##strange
 out=$(printf "apple\nbanana\n" | ./keysearch)
